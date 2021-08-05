@@ -4,11 +4,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
 }
 
 body {
   background: linear-gradient(110deg, #f93d66, #6d47d9);
+  font-family: "Roboto", sans-serif;
   background-size: cover;
   background-position: center;
 }
@@ -19,15 +19,17 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 1.2rem 0;
+  margin: 2.2rem 0;
 }
 
-.menu ul li {
-  margin-top: 1rem;
+.menu-list li {
+  width: 18%;
+  background-color: green;
 }
 
 .menu ul li a {
   display: block;
+  width: 100%;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -35,7 +37,7 @@ body {
   font-weight: 300;
   background-color: yellow;
   color: black;
-  padding: 0.7rem 3.5rem;
+  padding: 0.6rem 0;
 }
 
 .main-container {
@@ -208,10 +210,16 @@ body {
 
   .menu-list {
     display: none;
+    flex-direction: column;
+  }
+
+  .menu-list li {
+    width: 100%;
+    margin: 0.5rem 0;
   }
 
   .display_none {
-    display: inline-flex;
+    display: flex;
   }
 }
 
