@@ -23,6 +23,7 @@ body {
 }
 
 .menu ul li {
+  width: 18%;
   margin-top: 1rem;
 }
 
